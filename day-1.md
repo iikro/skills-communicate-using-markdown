@@ -18,8 +18,8 @@ ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output
 
 Relative URL to an image in the repository:
 
-![Mona the Octocat](myrepo/original.png)
+<img src="myrepo/original.png" alt="Mona the Octocat" />
 
 Absolute URL to an image on the internet:
 
-![Mona the Octocat](https://octodex.github.com/images/original.png)
+<img src="https://camo.githubusercontent.com/11e0047ccd68d2e9a17fbd7328c2974d78dcb72925acba33814f40121ecb4132/68747470733a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f737069646572746f6361742e706e67" alt="Mona the Octocat" width="400" />
